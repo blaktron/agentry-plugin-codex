@@ -1,0 +1,46 @@
+{
+  "name": "agentry",
+  "version": "0.1.0",
+  "description": "Find, verify, install and run QuickAgents (signed, scanned agent packages with a declared capability contract) and build your own, from your agent host.",
+  "author": {
+    "name": "Agentry",
+    "url": "https://secureagentry.net"
+  },
+  "homepage": "https://docs.secureagentry.net/agentry/mcp/",
+  "repository": "https://github.com/blaktron/agentry-plugin-codex",
+  "license": "MIT",
+  "keywords": [
+    "agentry",
+    "quickagents",
+    "agents",
+    "mcp",
+    "skills",
+    "sandbox",
+    "supply-chain",
+    "security"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Agentry",
+    "shortDescription": "Find, run and build QuickAgents",
+    "longDescription": "Agentry brings QuickAgents into your agent host. Search a registry, read a QuickAgent's capability contract, scan findings and signature, install it, and run it in Agentry's sandboxed runner with a preview you approve first. Build your own QuickAgent, validate it, get an AI Review and test it before you publish. The plugin drives the Agentry CLI on your computer; the CLI keeps your sign-in and enforces each QuickAgent's contract.",
+    "developerName": "Agentry",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://secureagentry.net",
+    "privacyPolicyURL": "https://secureagentry.net/privacy",
+    "termsOfServiceURL": "https://secureagentry.net/terms",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.png",
+    "brandColor": "#0E7A63",
+    "defaultPrompt": [
+      "Find a QuickAgent that can review this repository's dependencies for known vulnerabilities",
+      "Check that Agentry is set up on this computer",
+      "Help me build a QuickAgent that summarises our weekly changelog"
+    ]
+  }
+}

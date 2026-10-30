@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "agentry": {
+      "command": "node",
+      "args": [
+        "./server/agentry-mcp.mjs"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "PATH",
+        "HOME",
+        "USER",
+        "LOGNAME",
+        "LANG",
+        "TMPDIR",
+        "XDG_CONFIG_HOME",
+        "XDG_RUNTIME_DIR",
+        "DBUS_SESSION_BUS_ADDRESS",
+        "DOCKER_HOST",
+        "DOCKER_CONFIG",
+        "DOCKER_CONTEXT",
+        "AGENTRY_BIN",
+        "AGENTRY_REGISTRY",
+        "HTTP_PROXY",
+        "HTTPS_PROXY",
+        "NO_PROXY",
+        "SSL_CERT_FILE",
+        "NODE_EXTRA_CA_CERTS"
+      ],
+      "startup_timeout_sec": 60,
+      "tool_timeout_sec": 3600
+    }
+  }
+}
