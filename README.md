@@ -14,10 +14,10 @@ Then ask Codex to "check that Agentry is set up".
 ## Requirements
 
 - The Agentry CLI 0.6.63 or newer on `PATH` (or `AGENTRY_BIN` set to it). Install it from https://secureagentry.net/download.
-- Node 20 or newer on `PATH`.
+- Node 24 or newer on `PATH`.
 - Docker, for runs on this computer.
 
-Codex starts the bundled Agentry MCP server 0.6.999 from `server/` with only
+Codex starts the bundled Agentry MCP server 0.6.1002 from `server/` with only
 the environment variables listed in `.mcp.json`; no credential is passed to it.
 Signing in stays in your terminal (`agentry login`). Documentation: https://docs.secureagentry.net/agentry/mcp/.
 Privacy: https://secureagentry.net/privacy.
