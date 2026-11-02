@@ -17,7 +17,7 @@ Then ask Codex to "check that Agentry is set up".
 - Node 24 or newer on `PATH`.
 - Docker, for runs on this computer.
 
-Codex starts the bundled Agentry MCP server 0.6.1002 from `server/` with only
+Codex starts the bundled Agentry MCP server 0.7.0 from `server/` with only
 the environment variables listed in `.mcp.json`; no credential is passed to it.
 Signing in stays in your terminal (`agentry login`). Documentation: https://docs.secureagentry.net/agentry/mcp/.
 Privacy: https://secureagentry.net/privacy.
