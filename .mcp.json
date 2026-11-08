@@ -25,7 +25,16 @@
         "HTTPS_PROXY",
         "NO_PROXY",
         "SSL_CERT_FILE",
-        "NODE_EXTRA_CA_CERTS"
+        "NODE_EXTRA_CA_CERTS",
+        "ANTHROPIC_API_KEY",
+        "OPENAI_API_KEY",
+        "GEMINI_API_KEY",
+        "OPENROUTER_API_KEY",
+        "POE_API_KEY",
+        "HF_TOKEN",
+        "VULTR_INFERENCE_API_KEY",
+        "TYPESAFE_API_KEY",
+        "YDC_API_KEY"
       ],
       "startup_timeout_sec": 60,
       "tool_timeout_sec": 3600
