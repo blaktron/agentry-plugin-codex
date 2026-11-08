@@ -17,7 +17,7 @@ Then ask Codex to "check that Agentry is set up".
 - Node 24 or newer on `PATH`.
 - Docker, for runs on this computer.
 
-Codex starts the bundled Agentry MCP server 0.7.0 from `server/` with only
+Codex starts the bundled Agentry MCP server 0.7.16 from `server/` with only
 the environment variables listed in `.mcp.json`. Besides the CLI's own settings,
 those are the variables the CLI reads keys from by default: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY`, `OPENROUTER_API_KEY`, `POE_API_KEY`, `HF_TOKEN`, `VULTR_INFERENCE_API_KEY`, `TYPESAFE_API_KEY`, `YDC_API_KEY`.
 
